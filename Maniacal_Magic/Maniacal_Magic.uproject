@@ -1,12 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{EE22A3FF-4DEF-C437-732F-26849D121B36}",
+	"EngineAssociation": "4.27",
 	"Category": "",
-	"Description": "",
-	"Plugins": [
-		{
-			"Name": "HoudiniEngine",
-			"Enabled": true
-		}
-	]
+	"Description": ""
 }
