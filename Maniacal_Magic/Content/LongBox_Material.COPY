@@ -1,0 +1,75 @@
+Begin Object Class=/Script/Engine.Material Name="LongBox_Material"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_4"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/bozloibg/T_LongBox_BC.T_LongBox_BC"'
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=-368
+      MaterialExpressionGuid=784A46A74FD20AADDB6497A4556B4995
+      Material=Material'"LongBox_Material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/bozloibg/T_LongBox_R.T_LongBox_R"'
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=7EB42DCD4EDAD258F50CF182177F8B31
+      Material=Material'"LongBox_Material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/bozloibg/T_LongBox_H.T_LongBox_H"'
+      MaterialExpressionEditorX=-672
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=22D90E0A4194D48DE5A39C831D123D45
+      Material=Material'"LongBox_Material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Texture=Texture2D'"/Game/bozloibg/T_LongBox_M.T_LongBox_M"'
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=-144
+      MaterialExpressionGuid=027B082F40C18B99A34150B9ECED084D
+      Material=Material'"LongBox_Material"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_4"
+      Texture=Texture2D'"/Game/bozloibg/T_LongBox_N.T_LongBox_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=1E89616545D6FF2D37F35A944ECFAE6D
+      Material=Material'"LongBox_Material"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(3)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   Expressions(4)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=A1DB995B4829A63CCDF2E7A9B34F2C0D
+   CachedExpressionData=(ReferencedTextures=(Texture2D'"/Game/bozloibg/T_LongBox_R.T_LongBox_R"',Texture2D'"/Game/bozloibg/T_LongBox_BC.T_LongBox_BC"',Texture2D'"/Game/bozloibg/T_LongBox_H.T_LongBox_H"',Texture2D'"/Game/bozloibg/T_LongBox_M.T_LongBox_M"',Texture2D'"/Game/bozloibg/T_LongBox_N.T_LongBox_N"'),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=27FD1C7149B1ED88B70074AE43D73210
+   ReferencedTextureGuids(1)=804658394008031C8344EBBB92326A14
+   ReferencedTextureGuids(2)=9BB314BC4651AF6D02B29F866890EE85
+   ReferencedTextureGuids(3)=62786C844661ECA3A574DBB3E53062C4
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="LongBox_LP_lambert1_BaseColor",TextureReference=/Game/bozloibg/T_LongBox_BC.T_LongBox_BC)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="LongBox_LP_lambert1_Metallic",TextureReference=/Game/bozloibg/T_LongBox_M.T_LongBox_M)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="LongBox_LP_lambert1_Normal",TextureReference=/Game/bozloibg/T_LongBox_N.T_LongBox_N)
+   TextureStreamingData(3)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="LongBox_LP_lambert1_Roughness",TextureReference=/Game/bozloibg/T_LongBox_R.T_LongBox_R)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=A77A575B4D1288240EC819910422931F
+End Object
