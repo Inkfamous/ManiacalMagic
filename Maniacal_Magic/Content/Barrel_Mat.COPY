@@ -1,0 +1,74 @@
+Begin Object Class=/Script/Engine.Material Name="Barrel_Mat"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_4"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Barrel/Barrel_BC.Barrel_BC"'
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=D47AD47B4FFE35586694CC94235EABB5
+      Material=Material'"Barrel_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/Barrel/Barrel_H.Barrel_H"'
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=6C91806549F091EDE2018DBE0F2EEDCD
+      Material=Material'"Barrel_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/Barrel/Barrel_M.Barrel_M"'
+      MaterialExpressionEditorX=-368
+      MaterialExpressionGuid=E22AEF2046356F09F946FD9B5F95D642
+      Material=Material'"Barrel_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Texture=Texture2D'"/Game/Barrel/Barrel_N.Barrel_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=182D10D24A547B3ADE40D4B6F08F3997
+      Material=Material'"Barrel_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_4"
+      Texture=Texture2D'"/Game/Barrel/Barrel_R.Barrel_R"'
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=FB72117F4E7A80CEF32161BE96CF9BFF
+      Material=Material'"Barrel_Mat"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(3)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   Expressions(4)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=6DC5614C42AE259C3C9E6DBE7D2E6EF9
+   CachedExpressionData=(ReferencedTextures=(Texture2D'"/Game/Barrel/Barrel_BC.Barrel_BC"',Texture2D'"/Game/Barrel/Barrel_H.Barrel_H"',Texture2D'"/Game/Barrel/Barrel_M.Barrel_M"',Texture2D'"/Game/Barrel/Barrel_N.Barrel_N"',Texture2D'"/Game/Barrel/Barrel_R.Barrel_R"'),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=5986CC5349E322318054598C10FC5890
+   ReferencedTextureGuids(1)=AB775B0A47CB9D1E81F57D896BC51C65
+   ReferencedTextureGuids(2)=3B249A434F575016AF44E28332F971FC
+   ReferencedTextureGuids(3)=7DBFE47E4EF05F17E8F4A6B994DEDBCD
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Barrel_BC",TextureReference=/Game/Barrel/Barrel_BC.Barrel_BC)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Barrel_M",TextureReference=/Game/Barrel/Barrel_M.Barrel_M)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Barrel_N",TextureReference=/Game/Barrel/Barrel_N.Barrel_N)
+   TextureStreamingData(3)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Barrel_R",TextureReference=/Game/Barrel/Barrel_R.Barrel_R)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=F3BC2A654C13732B54A043AA1EEF3013
+End Object
